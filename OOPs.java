@@ -25,9 +25,9 @@ class User { // ** --> class like an object constructor or a blueprint for creat
 
 class UserConst {
     private int age;
-    private StringUnderstand name;
+    private String name;
 
-    public void data(int age, StringUnderstand name) { // * --> variable only access with methods.
+    public void data(int age, String name) { // * --> variable only access with methods.
         // * These variable are local variable becoz it is in methods works inside
         // methods only.
         this.age = age;
@@ -47,11 +47,11 @@ class UserConst {
         this.age = age;
     }
 
-    public StringUnderstand getName() {
+    public String getName() {
         return name;
     }
 
-    public void setName(StringUnderstand name) {
+    public void setName(String name) {
         this.name = name;
     }
 
